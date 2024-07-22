@@ -29,7 +29,7 @@ We recommend using the [Python 3.9 Miniconda installer](https://docs.conda.io/en
 | PCQM4Mv2 | 3,746,620 | regression | 1           | MAE    |
 
 
-### OPV
+<!-- ### OPV
 The [OPV](https://doi.org/10.1063/1.5099132) dataset, named organic photovoltaic dataset, contains 90,823 unique molecules (monomers and soluble small molecules) and their SMILES strings, 3D geometries, and optoelectronic properties from DFT calculations. OPV has four molecular tasks, the energy of highest occupied molecular orbital for the monomer ($\varepsilon_{\rm HOMO}$), the lowest unoccupied molecular orbital of the monomer ($\varepsilon_{\rm LUMO}$), the first excitation energy of the monomer calculated with time-dependent DFT ($\Delta \varepsilon$), and the spectral overlap $I_{overlap}$. In addition, OPV has four polymeric tasks, the polymer $\varepsilon_{\rm HOMO}$, polymer $\varepsilon_{\rm LUMO}$, polymer gap $\Delta \varepsilon$, and optical LUMO $O_{\rm LUMO}$.
 
 
@@ -37,7 +37,7 @@ The [OPV](https://doi.org/10.1063/1.5099132) dataset, named organic photovoltaic
 The [OCELOTv1](https://doi.org/10.1039/D2SC04676H) dataset contains 25,251 organic $\pi$-conjugated molecules and their electronic, redox, and optical properties computed with the high accuracy DFT/TDDFT calculations. The DFT and TDDFT properties available in the dataset are vertical (VIE) and adiabatic (AIE) ionization energies, vertical (VEA) and adiabatic (AEA) electron affinities, cation (CR) and anion (AR) relaxation energies, HOMO energies (HOMO), LUMO energies (LUMO), HOMO–LUMO energy gaps (H–L), electron (ER) and hole (HR) reorganization energies, and lowest-lying singlet (S0S1) and triplet (S0T1) excitation energies. 
 
 ### PCQM4Mv2
-[PCQM4Mv2](https://ogb.stanford.edu/docs/lsc/pcqm4mv2/) is a quantum chemistry dataset originally curated under the [PubChemQC project](https://doi.org/10.1021/acs.jcim.7b00083). A meaningful ML task was defined to predict DFT-calculated HOMO-LUMO energy gap of molecules given their 2D molecular graphs. PCQM4Mv2 is unprecedentedly large (> 3.8M graphs) in scale comparing to other labeled graph-level prediction datasets.
+[PCQM4Mv2](https://ogb.stanford.edu/docs/lsc/pcqm4mv2/) is a quantum chemistry dataset originally curated under the [PubChemQC project](https://doi.org/10.1021/acs.jcim.7b00083). A meaningful ML task was defined to predict DFT-calculated HOMO-LUMO energy gap of molecules given their 2D molecular graphs. PCQM4Mv2 is unprecedentedly large (> 3.8M graphs) in scale comparing to other labeled graph-level prediction datasets. -->
 
 ## 🔥 Model Training
 
